@@ -1,4 +1,3 @@
-var firstHref = $("a[href^='http']").eq(0).attr("href");
 var source = document.documentElement.innerHTML;
 var startIndex = 0, endIndex;
 var allLinks = [];
@@ -49,5 +48,6 @@ while (true) {
 	startIndex = endIndex;
 }
 
-chrome.storage.local.set({'videoLinks': allLinks}, function() {
-});
+if (allLinks.length > 0) {
+	chrome.storage.local.set({'videoLinks': allLinks});
+}
