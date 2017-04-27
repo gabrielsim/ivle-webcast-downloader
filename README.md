@@ -1,8 +1,7 @@
 # ivle-webcast-downloader
 ![Screenshot](demo.png)
 # Installation
-1. Download the chrome extension from releases (https://github.com/gabrielsim1993/ivle-webcast-downloader/releases/download/v1.0/IVLE.video.crx)
-2. Drop the extension in chrome://extensions
+1. Download from the Chrome store (https://chrome.google.com/webstore/detail/ivle-downloader/ekjjmlkgibkbipefpkbaapmhbolebnga)
 
 # Usage
 1. Load a webcast normally to authenticate yourself. Then close the window.
